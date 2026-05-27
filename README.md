@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+The purpose of this website is to learn about GitHub Pages.
+
 <!--
 **shinymeganium/shinymeganium** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
