@@ -1,0 +1,86 @@
+/* Color Palette */
+:root {
+  --pink: #f8c8dc;
+  --light-pink: #fde6ef;
+  --dark-pink: #d98aa5;
+  --text: #4a4a4a;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--light-pink);
+  color: var(--text);
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: var(--pink);
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* Navbar */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: var(--dark-pink);
+}
+
+/* Main content */
+main {
+  flex: 1;
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 40px;
+}
+
+main section ul {
+  list-style: none;
+}
+
+h2 {
+  color: var(--dark-pink);
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--pink);
+  padding: 10px 20px;
+  text-align: left;
+}
